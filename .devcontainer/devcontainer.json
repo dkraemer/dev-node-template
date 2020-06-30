@@ -1,0 +1,14 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json
+{
+  "image": "dkraemer/dev-node:latest",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "EditorConfig.EditorConfig",
+    "yzhang.markdown-all-in-one",
+    "shd101wyy.markdown-preview-enhanced",
+    "aaron-bond.better-comments",
+    "visualstudioexptteam.vscodeintellicode",
+  ]
+}
