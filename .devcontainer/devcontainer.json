@@ -8,8 +8,7 @@
     "EditorConfig.EditorConfig",
     "yzhang.markdown-all-in-one",
     "shd101wyy.markdown-preview-enhanced",
-    "aaron-bond.better-comments",
-    "visualstudioexptteam.vscodeintellicode",
+    "visualstudioexptteam.vscodeintellicode"
   ],
   // "forwardPorts": [],
   "postCreateCommand": [
