@@ -7,7 +7,7 @@ cp -fv .devcontainer/.bashrc /root/
 
 yarn global add typescript
 yarn global add @types/node
-yarn global add ts-node
-yarn global add tsdx
-yarn global add oclif
+yarn global add ts-node
+yarn global add tsdx
+yarn global add oclif
 yarn global add gulp

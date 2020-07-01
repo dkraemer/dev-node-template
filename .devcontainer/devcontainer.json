@@ -12,7 +12,5 @@
     "visualstudioexptteam.vscodeintellicode"
   ],
   //"forwardPorts": [],
-  "postCreateCommand": [
-    "${containerWorkspaceFolder}/.devcontainer/postCreate.sh"
-  ]
+  "postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/postCreate.sh"
 }
