@@ -1,6 +1,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json
 {
   "image": "dkraemer/dev-node:latest",
+  //"name": "",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
@@ -10,7 +11,7 @@
     "shd101wyy.markdown-preview-enhanced",
     "visualstudioexptteam.vscodeintellicode"
   ],
-  // "forwardPorts": [],
+  //"forwardPorts": [],
   "postCreateCommand": [
     "${containerWorkspaceFolder}/.devcontainer/postCreate.sh"
   ]
