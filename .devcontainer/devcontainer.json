@@ -12,6 +12,6 @@
   ],
   // "forwardPorts": [],
   "postCreateCommand": [
-    "${containerWorkspaceFolder}/init.sh"
+    "${containerWorkspaceFolder}/.devcontainer/postCreate.sh"
   ]
 }
