@@ -10,5 +10,9 @@
     "shd101wyy.markdown-preview-enhanced",
     "aaron-bond.better-comments",
     "visualstudioexptteam.vscodeintellicode",
+  ],
+  // "forwardPorts": [],
+  "postCreateCommand": [
+    "${containerWorkspaceFolder}/init.sh"
   ]
 }
