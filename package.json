@@ -9,6 +9,7 @@
     "clean": "git clean -dXf --exclude=\"!node_modules/\"",
     "build": "tsc -p src",
     "watch": "tsc -w -p src",
+    "test": "yarn test"
     "lint": "yarn eslint .",
     "pre-commit": "yarn lint && yarn build"
   },
@@ -29,12 +30,14 @@
   },
   "homepage": "https://github.com/dkraemer/<name>",
   "devDependencies": {
-    "@tsconfig/node14": "^1.0.0",
-    "@types/node": "^15.6.0",
-    "@typescript-eslint/eslint-plugin": "^4.24.0",
-    "@typescript-eslint/parser": "^4.24.0",
-    "eslint": "^7.27.0",
-    "husky": "^6.0.0",
-    "typescript": "^4.2.4"
+    "@tsconfig/node14": "*",
+    "@types/node": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "chai": "*",
+    "eslint": "*",
+    "husky": "*",
+    "mocha": "*",
+    "typescript": "*"
   }
 }
