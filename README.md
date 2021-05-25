@@ -1,3 +1,3 @@
 # node-devcontainer-template
-## A Visual Studio Code devcontainer template for node.js development
-Customize ```.devcontainer/postCreate.sh``` to fit your requirements.
+## A Visual Studio Code devcontainer template for Node.js/Typescript development
+

@@ -1,17 +1,14 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json
 {
-  "image": "dkraemer/dev-node:latest",
-  //"name": "",
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
+  "image": "node:lts-buster",
   "extensions": [
     "EditorConfig.EditorConfig",
     "yzhang.markdown-all-in-one",
     "shd101wyy.markdown-preview-enhanced",
     "visualstudioexptteam.vscodeintellicode",
-    "adammaras.overtype"
+    "adammaras.overtype",
+    "donjayamanne.githistory",
+    "dbaeumer.vscode-eslint",
   ],
-  //"forwardPorts": [],
-  "postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/postCreate.sh"
+  "postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/postCreate.sh",
 }

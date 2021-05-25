@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "../lib",
+    "rootDir": ".",
+    "types": [
+      "node"
+    ],
+    "sourceMap": true,
+    "composite": true,
+    "resolveJsonModule": true
+  },
+  "references": [
+    {
+      "path": "../"
+    }
+  ]
+}
