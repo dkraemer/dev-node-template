@@ -9,7 +9,7 @@
     "clean": "git clean -dXf --exclude=\"!node_modules/\"",
     "build": "tsc -p src",
     "watch": "tsc -w -p src",
-    "test": "yarn test"
+    "test": "yarn test",
     "lint": "yarn eslint .",
     "pre-commit": "yarn lint && yarn build"
   },
