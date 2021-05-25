@@ -1,0 +1,10 @@
+/.devcontainer
+/.vscode
+/lib/tsconfig.tsbuildinfo
+/src
+/.editorconfig
+/.eslintignore
+/.eslintrc.js
+/.gitattributes
+/.gitignore
+/tsconfig.json

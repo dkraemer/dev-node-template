@@ -1,0 +1,40 @@
+#GUARD LINE. REMOVE AFTER CUSTOMIZATION!
+{
+  "name": "",
+  "version": "0.1.0-dev",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "clean": "git clean -dXf --exclude=\"!node_modules/\"",
+    "build": "tsc -p src",
+    "watch": "tsc -w -p src",
+    "lint": "yarn eslint .",
+    "pre-commit": "yarn lint && yarn build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn pre-commit",
+      "pre-push": ""
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkraemer/<name>.git"
+  },
+  "author": "Daniel Kraemer <dkraemer@dkross.org>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/dkraemer/<name>/issues"
+  },
+  "homepage": "https://github.com/dkraemer/<name>",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/node": "^15.6.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "husky": "^6.0.0",
+    "typescript": "^4.2.4"
+  }
+}
