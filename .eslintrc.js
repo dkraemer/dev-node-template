@@ -14,7 +14,7 @@ module.exports = {
     'quotes': [2, 'single'],
     // note you must disable the base rules as they can report incorrect errors
     'brace-style': 'off',
-    '@typescript-eslint/brace-style': ['error', '1tbs', { 'allowSingleLine': false }],
+    '@typescript-eslint/brace-style': ['error', 'stroustrup', { 'allowSingleLine': false }],
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
     'semi': 'off',
