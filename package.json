@@ -14,12 +14,6 @@
     "lint": "yarn eslint .",
     "pre-commit": "yarn lint && yarn build"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn pre-commit",
-      "pre-push": ""
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dkraemer/<name>.git"
